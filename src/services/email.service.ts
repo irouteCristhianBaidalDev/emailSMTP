@@ -38,7 +38,7 @@ class EmailService {
       }
 
       const mailOptions = {
-        from: emailData.from || smtpConfig.auth.user,
+        from: 'cristhian.baidal.dev@gmail.com',
         to: emailData.to,
         subject: emailData.subject,
         text: emailData.text,
